@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#1E0044, #5517A4);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+   
+}
+
+
+
+
+.logo img {
+    height: 40px; 
+    width: auto;
+}
+
+
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #150030; 
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #743BEE; 
+}
+
+.title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    color: #A378FF;
+}
+.projects-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #C39FEC;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+    align-items: flex-start;
+}
+
+.gallery figure {
+    
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1E0044;
+    width: 45%; 
+    margin-bottom: 30px; 
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+figcaption h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+figcaption p {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
